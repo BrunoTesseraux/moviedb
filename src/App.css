@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.movie-list {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.movie-card {
+  background-color: tomato;
+  transition: 0.5s;
+}
+.movie-card:hover {
+  scale: 1.1;
+  box-shadow: 0 0 10px black;
+}
+.movie-details {
+  padding: 20px;
+}
